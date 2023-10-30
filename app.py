@@ -164,4 +164,4 @@ for bar_chart in cluster_bar_charts:
     app.layout.children.append(dcc.Graph(figure=bar_chart))
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
