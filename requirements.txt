@@ -3,3 +3,4 @@ Pandas
 Seaborn
 Matplotlib
 Plotly
+gunicorn==19.7.1
