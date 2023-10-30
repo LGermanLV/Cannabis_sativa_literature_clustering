@@ -18,8 +18,8 @@ def split_abstract(abstract, words_per_line=12):
     return '<br>'.join([' '.join(line) for line in lines])
 
 # Load the CSV data from the provided link
-# data_url = "https://raw.githubusercontent.com/LGermanLV/Cannabis_sativa_literature_clustering/main/cannabis_df_final.csv"
-data_url = 'cannabis_df_final.csv'
+data_url = "https://raw.githubusercontent.com/LGermanLV/Cannabis_sativa_literature_clustering/main/cannabis_df_final.csv"
+# data_url = 'cannabis_df_final.csv'
 new_df = pd.read_csv(data_url)
 
 # Create the scatter plot
